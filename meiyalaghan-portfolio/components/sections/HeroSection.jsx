@@ -49,6 +49,19 @@ export default function HeroSection() {
     }
   }
 
+  function handleListen() {
+    if (typeof window === 'undefined' || !window.speechSynthesis) return
+    const synth = window.speechSynthesis
+    if (synth.speaking) {
+      synth.cancel()
+      return
+    }
+    const utterance = new SpeechSynthesisUtterance(profile.bio)
+    utterance.rate = 1
+    utterance.pitch = 1
+    synth.speak(utterance)
+  }
+
   useEffect(() => {
     const section = sectionRef.current
     if (!section) return
@@ -112,7 +125,7 @@ export default function HeroSection() {
           const Icon = SOCIAL_ICON_MAP[social.label]
           if (!Icon) return null
           return (
-            <a
+            
               key={social.label}
               href={social.href}
               target="_blank"
@@ -164,6 +177,9 @@ export default function HeroSection() {
         {/* View Projects CTA */}
         <button ref={ctaBtnRef} type="button" className={styles.viewBtn} onClick={handleViewProjects}>
            View Work <FiArrowUpRight />
+        </button>
+        <button type="button" className={styles.viewBtn} style={{ marginLeft: '12px' }} onClick={handleListen}>
+           🔊 Listen
         </button>
 
         {/* Stats Row */}
