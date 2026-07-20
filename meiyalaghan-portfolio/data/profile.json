@@ -18,7 +18,7 @@
   "available": true,
   "bio": "Motivated B.Tech Information Technology student with hands-on experience in UI/UX design, full-stack web development, and software testing. Proficient in Java, Python, JavaScript, React.js, Node.js, MongoDB, HTML, and CSS. Passionate about developing scalable applications, solving real-world problems through hackathons, and continuously learning new technologies.",
   "stats": [
-    { "value": "8/10", "label": "CGPA" },
+    { "value": "7.5/10", "label": "CGPA" },
     { "value": "6+", "label": "Projects Built" },
     { "value": "2", "label": "SIH Hackathons" }
   ],
