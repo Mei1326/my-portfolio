@@ -121,18 +121,11 @@ export default function HeroSection() {
 
       {/* Social Sidebar */}
       <div ref={socialRef} className={styles.socialSidebar}>
-        {sidebarSocials.map(social => {
+        {sidebarSocials.map((social) => {
           const Icon = SOCIAL_ICON_MAP[social.label]
           if (!Icon) return null
           return (
-            
-              key={social.label}
-              href={social.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.socialLink}
-              aria-label={social.label}
-            >
+            <a key={social.label} href={social.href} target="_blank" rel="noopener noreferrer" className={styles.socialLink} aria-label={social.label}>
               <Icon size={15} />
               <span className={styles.socialLabel}>{social.label}</span>
             </a>
