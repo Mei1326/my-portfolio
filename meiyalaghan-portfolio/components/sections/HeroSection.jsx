@@ -125,13 +125,6 @@ export default function HeroSection() {
           const Icon = SOCIAL_ICON_MAP[social.label]
           if (!Icon) return null
           return (
-            key={social.label}
-              href={social.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.socialLink}
-              aria-label={social.label}
-            >
             
               key={social.label}
               href={social.href}
