@@ -1,0 +1,163 @@
+{
+  "name": {
+    "first": "Meiyalaghan",
+    "last": "A",
+    "full": "Meiyalaghan A"
+  },
+  "email": "meiyalaghan1326@gmail.com",
+  "tagline": "Building scalable full-stack apps with clean, user-first design.",
+  "description": "B.Tech Information Technology student skilled in full-stack web development, UI/UX design, and software testing, passionate about building scalable applications.",
+  "roles": {
+    "short": "Full Stack Developer",
+    "detailed": "Full Stack Web Development | UI/UX Design | Software Testing"
+  },
+  "location": {
+    "based": "Salem, Tamil Nadu, India",
+    "availability": "India / Remote"
+  },
+  "available": true,
+  "bio": "Motivated B.Tech Information Technology student with hands-on experience in UI/UX design, full-stack web development, and software testing. Proficient in Java, Python, JavaScript, React.js, Node.js, MongoDB, HTML, and CSS. Passionate about developing scalable applications, solving real-world problems through hackathons, and continuously learning new technologies.",
+  "stats": [
+    { "value": "8/10", "label": "CGPA" },
+    { "value": "6+", "label": "Projects Built" },
+    { "value": "2", "label": "SIH Hackathons" }
+  ],
+  "skills": [
+    "Java", "Python", "JavaScript", "C", "HTML5", "CSS3", "React.js", "Node.js", "MongoDB",
+    "Figma", "Wireframing", "Prototyping", "UI Design", "Git & GitHub", "VS Code", "Postman",
+    "DSA", "OOP", "SDLC", "Software Testing", "DBMS"
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "role": "Full Stack Developer",
+      "company": "Smart India Hackathon 2025",
+      "companyShort": "SIH 2025",
+      "type": "Hackathon",
+      "location": "India",
+      "period": "2025",
+      "periodEnd": "2025",
+      "bullets": [
+        "Built Academic DocumentValidator, a secure certificate verification system using hash-based IDs.",
+        "Developed an admin dashboard for issuing and validating certificates.",
+        "Ensured data integrity with scalable backend integration across React, Node.js, MongoDB, and Python."
+      ],
+      "desc": "Secure certificate verification platform built during Smart India Hackathon 2025.",
+      "tech": ["React.js", "Node.js", "MongoDB", "Python"]
+    },
+    {
+      "id": 2,
+      "role": "Full Stack Developer",
+      "company": "Smart India Hackathon 2024",
+      "companyShort": "SIH 2024",
+      "type": "Hackathon",
+      "location": "India",
+      "period": "2024",
+      "periodEnd": "2024",
+      "bullets": [
+        "Developed Smart Fitness Platform with real-time tracking and AI-driven insights.",
+        "Integrated the Fitbit API for live health data and activity tracking.",
+        "Added gamification and multilingual support to boost engagement."
+      ],
+      "desc": "AI-assisted fitness tracking platform built during Smart India Hackathon 2024.",
+      "tech": ["React.js", "Node.js", "MongoDB", "Python", "Fitbit API"]
+    },
+    {
+      "id": 3,
+      "role": "B.Tech, Information Technology",
+      "company": "Hindustan College of Technology",
+      "companyShort": "HCT",
+      "type": "Education",
+      "location": "India",
+      "period": "2023",
+      "periodEnd": "Present",
+      "bullets": [
+        "Pursuing a Bachelor of Technology in Information Technology, maintaining a CGPA of 8/10.",
+        "Coursework spans DSA, OOP, DBMS, SDLC, and Software Testing.",
+        "Active participant in hackathons, coding contests, and technical workshops."
+      ],
+      "desc": "Ongoing undergraduate degree in Information Technology (2023 - 2027).",
+      "tech": ["Java", "Python", "DBMS", "OOP"]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Academic DocumentValidator",
+      "subtitle": "Smart India Hackathon 2025",
+      "type": "Full Stack",
+      "link": "https://github.com/Mei1326",
+      "image": "/assets/project-artgenio1.png",
+      "tech": ["React.js", "Node.js", "MongoDB", "Python"],
+      "desc": "Secure certificate verification system using hash-based IDs, with an admin dashboard for issuing and validating academic certificates while ensuring data integrity."
+    },
+    {
+      "id": 2,
+      "title": "Smart Fitness Platform",
+      "subtitle": "Smart India Hackathon 2024",
+      "type": "Full Stack + AI",
+      "link": "https://github.com/Mei1326",
+      "image": "/assets/project-easyfolio1.png",
+      "tech": ["React.js", "Node.js", "MongoDB", "Python", "Fitbit API"],
+      "desc": "Fitness tracking app with real-time activity monitoring, AI-driven insights, gamification, and multilingual support."
+    },
+    {
+      "id": 3,
+      "title": "Shielded Inbox",
+      "subtitle": "Smart Email System",
+      "type": "Web App",
+      "link": "https://github.com/Mei1326",
+      "image": "/assets/project-artgenio1.png",
+      "tech": ["HTML", "CSS", "JavaScript", "Backend", "Database"],
+      "desc": "Smart inbox with spam filtering that improves email organization and overall user experience."
+    },
+    {
+      "id": 4,
+      "title": "CivicVoice Station",
+      "subtitle": "Civic Issue Reporting Platform",
+      "type": "Web App",
+      "link": "https://github.com/Mei1326",
+      "image": "/assets/project-easyfolio1.png",
+      "tech": ["HTML", "CSS", "JavaScript", "MongoDB"],
+      "desc": "Platform for reporting civic issues with a responsive UI that enables direct user interaction."
+    }
+  ],
+  "publications": [
+    {
+      "id": 1,
+      "title": "Cloud Computing Fundamentals",
+      "platform": "IBM Certificate",
+      "year": "2026",
+      "link": "https://www.linkedin.com/in/meiyalaghan-a-a80261300",
+      "desc": "Certification covering core cloud computing concepts and fundamentals."
+    },
+    {
+      "id": 2,
+      "title": "Java Full Stack Development",
+      "platform": "Dev Technology Solutions",
+      "year": "2026",
+      "link": "https://www.linkedin.com/in/meiyalaghan-a-a80261300",
+      "desc": "Certification in full stack development using the Java ecosystem."
+    },
+    {
+      "id": 3,
+      "title": "Freedom with AI Masterclass",
+      "platform": "Certificate",
+      "year": "2026",
+      "link": "https://www.linkedin.com/in/meiyalaghan-a-a80261300",
+      "desc": "Masterclass on practical applications of AI tools for productivity and development."
+    },
+    {
+      "id": 4,
+      "title": "2nd Prize, 8-Hour Hackathon",
+      "platform": "Dhanalakshmi College of Engineering, Chennai",
+      "year": "2026",
+      "link": "mailto:meiyalaghan1326@gmail.com",
+      "desc": "Won second prize in an 8-hour hackathon, alongside participation in SIH 2024 & 2025 and Neura Hack 2.0."
+    }
+  ],
+  "socials": [
+    { "label": "GitHub", "href": "https://github.com/Mei1326" },
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/in/meiyalaghan-a-a80261300" }
+  ]
+}
